@@ -10,7 +10,7 @@
 - Improved SDS Explorer refresh behavior so recorded file sizes and flag changes update without unnecessary full tree refreshes.
 - Disabled SDSIO record and play controls when the extension is not connected to the SDSIO server.
 - Improved chart layout resizing and initial cursor synchronization in data and audio viewers.
-- Improved security handling for metadata/config file creation and webview message validation.
+- Improved safety when creating SDS metadata and configuration files by avoiding accidental overwrites.
 - Improved CMSIS pack root discovery for SDS Check by falling back to the default pack cache location and showing clearer errors.
 - Updated README usage guidance and screenshots.
 
